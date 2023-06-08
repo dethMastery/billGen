@@ -12,10 +12,10 @@ const body = `<div id="container">
     <div class="cardBody">
       <form action="/addBills" method="post">
         <label for="order">Order ID: </label>
-        <input type="text" name="order" id="order">
+        <input type="text" name="order" id="order" placeholder="order ID" required>
 
         <label for="amount">Amount: </label>
-        <input type="number" name="amount" id="amount">
+        <input type="number" name="amount" id="amount" placeholder="Amount" required>
         
         <button type="submit">
           Create Order
