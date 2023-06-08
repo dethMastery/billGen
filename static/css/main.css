@@ -6,6 +6,8 @@
 
 /* Components */
 @import url('/css/components/navBar.css');
+@import url('/css/components/container.css');
+@import url('/css/components/card.css');
 @import url('/css/components/footer.css');
 
 * {

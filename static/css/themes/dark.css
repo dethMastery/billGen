@@ -10,3 +10,7 @@
 .dark #navBar, .dark #footer {
   background: #2e2f2f;
 }
+
+.dark #container .card {
+  filter: drop-shadow(0 0 .75rem rgb(159, 159, 159))
+}

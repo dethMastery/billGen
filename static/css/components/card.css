@@ -1,0 +1,86 @@
+.card {
+  margin: 0 auto;
+  width: 40%;
+  background: whitesmoke;
+  border-radius: 1rem;
+}
+
+.card * {
+  color: #2e2f2f;
+  margin: 0;
+  padding: 0;
+}
+
+.card .cardHeader {
+  padding-top: 1.5rem;
+  padding-bottom: .5rem;
+}
+
+.card .cardBody {
+  padding-top: .5rem;
+  padding-bottom: 1.55rem;
+}
+
+.card h1 {
+  font-size: 20px;
+}
+
+.card .cardBody form {
+  padding: 0 1.5rem;
+}
+
+.card .cardBody form .form-container {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.card .cardBody form .form-container * {
+  display: block;
+}
+
+.card .cardBody form .form-container label {
+  margin-bottom: .25rem;
+}
+
+.card .cardBody form .form-container input {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  outline: none;
+
+  padding: .5rem .25rem;
+  margin: 0 auto;
+
+  text-align: center;
+  font-size: 15px;
+
+  filter: drop-shadow(0 10px .75rem #2e2f2f);
+  transition: all .3s;
+}
+
+.card .cardBody form .form-container input:focus {
+  border: 2px solid #2e2f2f;
+}
+
+.card .cardBody form .form-container button[type="submit"] {
+  display: block;
+
+  margin: 0 auto;
+  margin-top: 1.5rem;
+
+  padding: .75rem;
+
+  background: #fe6e6f;
+  color: whitesmoke;
+  border: none;
+  border-radius: 1rem;
+
+  transition: all .3s;
+}
+
+.card .cardBody form .form-container button[type="submit"]:hover {
+  cursor: pointer;
+  transform: scale(.85, .85);
+  opacity: .6;
+}
