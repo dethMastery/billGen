@@ -11,21 +11,15 @@ const body = `<div id="container">
     </div>
     <div class="cardBody">
       <form action="/addBills" method="post">
-        <div class="form-container">
-          <label for="order">Order ID: </label>
-          <input type="text" name="order" id="order">
-        </div>
-        <br>
-        <div class="form-container">
-          <label for="amount">Amount: </label>
-          <input type="number" name="amount" id="amount">
-        </div>
+        <label for="order">Order ID: </label>
+        <input type="text" name="order" id="order">
 
-        <div class="form-container">
-          <button type="submit">
-            Create Order
-          </button>
-        </div>
+        <label for="amount">Amount: </label>
+        <input type="number" name="amount" id="amount">
+        
+        <button type="submit">
+          Create Order
+        </button>
       </form>
     </div>
   </div>
