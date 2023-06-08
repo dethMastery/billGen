@@ -6,7 +6,12 @@
   flex-direction: row;
 }
 
+#navBar .left {
+  width: 100%;
+}
+
 #navBar .left a {
+  text-decoration: none;
   width: auto;
   display: block;
   padding: 1rem;
