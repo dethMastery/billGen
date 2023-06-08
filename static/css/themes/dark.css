@@ -1,0 +1,12 @@
+.dark {
+  background: #2e2f2f !important;
+  color: whitesmoke;
+}
+
+.dark * {
+  color: whitesmoke
+}
+
+.dark #navBar, .dark #footer {
+  background: #2e2f2f;
+}

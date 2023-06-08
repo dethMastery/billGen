@@ -1,0 +1,12 @@
+body {
+  background: whitesmoke;
+  color: #2e2f2f;
+}
+
+* {
+  color: #2e2f2f;
+}
+
+#navBar, #footer {
+  background: whitesmoke;
+}
