@@ -1,6 +1,6 @@
 {
-  "name": "billGen",
-  "version": "1.0.0",
+  "name": "bill-gen",
+  "version": "0",
   "main": "index.js",
   "repository": "https://github.com/dethMastery/billGen.git",
   "author": "dethMastery <me@suphakit.net>",
