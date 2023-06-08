@@ -1,24 +1,22 @@
-function portRun(app, port) {
-  app.listen(port, () => {
-    let url = 'Server Running on http://localhost:' + port
-    let dat = ''
+const { exp, app } = require('../app')
 
-    for(let i=0; i<url.length+21; i++) {
-      dat = dat + '='
-    }
+const port = 1980
 
-    console.log('');
-    console.log(dat);
-    console.log('');
-    console.log('');
-    console.log('          ' + url);
-    console.log('updated @ ' + new Date())
-    console.log('');
-    console.log('');
-    console.log(dat);
-  })
-}
+app.listen(port, () => {
+  let url = 'Server Running on http://localhost:' + port
+  let dat = ''
 
-module.exports = {
-  portRun
-}
+  for(let i=0; i<url.length+21; i++) {
+    dat = dat + '='
+  }
+
+  console.log('');
+  console.log(dat);
+  console.log('');
+  console.log('');
+  console.log('          ' + url);
+  console.log('updated @ ' + new Date())
+  console.log('');
+  console.log('');
+  console.log(dat);
+})
