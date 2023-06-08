@@ -12,7 +12,7 @@ const body = `<div id="container">
     <div class="cardBody">
       <form action="/addBills" method="post">
         <div class="form-container">
-          <label for="order">Order Name: </label>
+          <label for="order">Order ID: </label>
           <input type="text" name="order" id="order">
         </div>
         <br>
