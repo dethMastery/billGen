@@ -7,7 +7,12 @@ function pageGET(app, root) {
   })
 
   app.get('/bills', (req, res) => {
-    res.send(pageLayout(pageListing.bills))
+    const slugData = {
+      order: req.query.order,
+      amount: req.query.amount
+    }
+
+    res.send(pageLayout(pageListing.bills(slugData)))
   })
 }
 
