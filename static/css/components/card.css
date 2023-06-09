@@ -85,3 +85,50 @@
   transform: scale(.85, .85);
   opacity: .6;
 }
+
+.card .cardBody table {
+  width: 80%;
+  margin: auto;
+}
+
+.card .cardBody table tr td {
+  padding: .25rem 0;
+}
+
+.card .cardBody table tr td:nth-child(1) {
+  width: 25%;
+}
+
+.card .cardBody table tr td:nth-child(2) {
+  width: 65%;
+}
+
+.card .cardBody table tr td:hover {
+  cursor: default;
+}
+
+.card .cardBody table tr td#pp-id {
+  background: #2e2f2f;
+}
+
+.card .cardBody table tr td#pp-id > p {
+  display: none;
+}
+
+.card .cardBody table tr td#pp-id:hover {
+  background: transparent;
+}
+
+.card .cardBody table tr td#pp-id:hover > p {
+  display: block;
+}
+
+.card .cardBody table tr td#pp-id::after {
+  content: '';
+}
+
+.card .cardBody img {
+  margin: 1rem 0;
+  width: 60%;
+  height: auto;
+}
