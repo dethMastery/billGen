@@ -1,5 +1,6 @@
 const pageListing = require('./listing')
 const pageLayout = require('../static/__Layout')
+const qrGenerator = require('../api/qr')
 
 function pageGET(app, root) {
   app.get('/', (req, res) => {
@@ -13,6 +14,15 @@ function pageGET(app, root) {
     }
 
     res.send(pageLayout(pageListing.bills(slugData)))
+  })
+
+  app.get('/api/bills', async (req, res) => {
+    const slugData = {
+      order: req.query.order,
+      amount: req.query.amount
+    }
+
+    qrGenerator(res, slugData)
   })
 }
 
