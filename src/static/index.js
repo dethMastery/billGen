@@ -10,9 +10,9 @@ const body = `<div id="container">
       </h1>
     </div>
     <div class="cardBody">
-      <form action="/addBills" method="post">
-        <label for="order">Order ID: </label>
-        <input type="text" name="order" id="order" placeholder="order ID" required>
+      <form action="/bills/" method="get">
+        <label for="order">PromptPay No.: </label>
+        <input type="text" name="order" id="order" placeholder="PromptPay No." required>
 
         <label for="amount">Amount: </label>
         <input type="number" name="amount" id="amount" placeholder="Amount" required>
