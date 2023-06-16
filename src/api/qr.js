@@ -9,8 +9,8 @@ function qrGenerator(res, data) {
     const options = {
       type: 'svg',
       color: {
-        dark: '#f5f5f5',
-        light: '#fe6e6f',
+        dark: '#2e2f2f',
+        light: '#f5f5f5',
       },
     }
 
